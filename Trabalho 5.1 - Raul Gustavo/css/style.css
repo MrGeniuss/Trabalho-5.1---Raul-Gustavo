@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+body{
+    background: rgb(214, 225, 255) url(../img/pattern-background.svg);
+}
+
+h1{
+    text-align: center;
+    margin: 55px 0 25px 0;
+    color: rgb(31, 47, 86);
+}
+
+h4{
+    color: rgb(31, 47, 86);
+}
+
+p{
+    color: rgb(117, 132, 169);  
+}
+
+.p1{
+    text-align: center;
+    margin: 0 70px 20px 70px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    width: 30%;
+    margin: 100px 100px 100px 500px; 
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 #7a7a7a;
+}
+
+.banner{
+    grid-column: 1;
+    grid-row: 1;
+    border-radius: 20px 20px 0 0;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.corpo{
+    grid-column: 1;
+    grid-row: 2;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+}
+
+.bloco1{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(245, 247, 255);
+    margin: 0 35px 20px 35px;
+    border-radius: 10px;
+}
+
+.imagen{
+    margin: 20px 0 20px 20px;
+}
+
+.bloco2{
+    margin: 30px 10px 20px 20px;
+    font-size: 80%;
+}
+
+.Alterar{
+    margin: 35px 0 30px 130px;
+    font-size: 85%;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.bloco3{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    margin: 30px 35px;
+    gap: 10px;
+}
+
+.bloco3 * {
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+}
+
+.b1{
+    grid-column: 1;
+    grid-row: 1;
+    background-color: rgb(56, 41, 224);
+    color: white;
+    font-weight: 500;
+    box-shadow: 0 5px 10px 0 #7a7a7a;
+    cursor: pointer;
+}
+
+.b2{
+    grid-column: 1;
+    grid-row: 2;
+    background-color: white;
+    color: rgb(117, 132, 169);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.Alterar:hover{
+    text-decoration: none;
+    color: rgb(109, 98, 232);
+}
+
+.b1:hover{
+    background-color: rgb(109, 98, 232);
+    font-weight: 700;
+}
+
+.b2:hover{
+    color: rgb(60, 61, 88);
+}
